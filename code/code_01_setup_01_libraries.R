@@ -9,6 +9,7 @@ library(memisc)
 library(lmtest)
 library(texreg)
 library(orcutt)
+library(PerformanceAnalytics)
 library(tidyverse, warn = FALSE)
 
-getwd()
+
