@@ -12,6 +12,8 @@ View(bbdd_2016_2020)
 
 ####CREAR VARIABLES#####
 bbdd_2016_2020 <- bbdd_2016_2020 %>% mutate(log_NY.GDP.PCAP.PP.KD = log(NY.GDP.PCAP.PP.KD))
+
+bbdd_2016_2020$SI.POV.DDAY[bbdd_2016_2020$SI.POV.DDAY == 0] <- 0.001
 bbdd_2016_2020 <- bbdd_2016_2020 %>% mutate(log_SI.POV.DDAY = log(SI.POV.DDAY))
 
 ####GUARDAR BASE#####
