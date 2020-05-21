@@ -65,6 +65,8 @@ Para corregir los problemas de <b> heterocedasticidad</b>  (evaluado con test de
 
 Para el año 2016, el PIB per cápita con paridad de poder de compra (a precios internacionales constantes de 2011), en base logarítmica, presenta una correlación positiva (mediana y alta) y significativa, con todos los indicadores desarrollados por Doing Business, dando cuenta de la relevancia del ambiente de negocios para el crecimiento económico de un país. Los indicadores que presentan la correlación más alta con el PIB per cápita son el puntaje global de facilidad para hacer negocios (0,73) y el indicador de obtención de electricidad (0,74).
 
+![Correlaciones PIB](plot/plot.pib.jpg)
+
 Para observar si esta tendencia se repite en el tiempo, se observa que controlando por año, región y grupo de ingreso de cada país, el indicador de facilidad para hacer negocios tiene un impacto positivo y significativo (inferior a un nivel de significancia de 0), con el PIB, evidenciando que el aumento de un punto en el indicador de facilidad para hacer negocios reporta un crecimiento en el PIB per cápita de un país.
 
 Por otro lado, controlando solo por año y grupo de ingreso, constatamos que todos los indicadores incorporados al modelo resultan significativos para explicar varianza en el PIB, aunque a diferentes niveles de significancia, con la sola excepción del indicador de facilidades para el pago de impuestos. Resulta llamativo, eso sí, que para los indicadores de facilidades para la apertura de un negocio, facilidades para la obtención del crédito, y el indicador de comercio transfronterizo presentan estimadores con signo negativo, lo que implica que, manteniendo todos los demás factores constantes, el aumento en un punto en la puntuación en dichos indicadores tiene un efecto negativo sobre el PIB per cápita. Este resultado resulta contraintuitivo, e incluso difiere de la correlación positiva y significativa, antes observada al observar la relación bivariada entre dichas variables y el PIB para el año 2016. 
@@ -72,6 +74,8 @@ Por otro lado, controlando solo por año y grupo de ingreso, constatamos que tod
 <b>Índice de Gini</b>
 
 En cuanto a la relación entre los indicadores Doing Business y el índice de Gini, se observan resultados disimiles. Por una parte, destaca que solo dos indicadores presentan una correlación significativa (a diferentes niveles de significancia) con el índice de Gini. Lo que permite inferir que gran parte de las dimensiones que caracterizan un ambiente de negocios tienen un impacto neutro sobre la desigualdad económica. Por otro lado, se observa que el indicador de Apertura de negocios presenta una correlación significativa y negativa con el índice de Gini, lo que da cuenta de que países con más facilidades para el desarrollo de nuevos negocios y empresas tienden a tener un menor nivel de desigualdad que aquellos que tienen una peor performance en ese indicador. Asimismo, si bien con una correlación más débil, se observa una relación de iguales características entre la desigualdad económica y el indicador de facilidad para el pago de impuestos.
+
+![Correlaciones GINI](plot/plot.gini.jpg)
 
 Controlando por año y grupo de ingreso, el indicador de facilidad para hacer negocios resulta significativo y con un efecto negativo sobre el índice de gini, tal como se esperaba. De esta manera, el aumento en una unidad de la puntuación en el indicador de facilidad para hacer negocios contribuye en una disminución de la desigualdad de ingresos.
 
@@ -81,6 +85,8 @@ Asimismo, los indicadores de facilidades para la apertura de negocios y para el 
 
 Al observar la relación entre los indicadores Doing Business y la participación en el ingreso del 20% peor remunerado de una economía, se reafirman los hallazgos preliminares observados en el punto anterior. En este caso, nuevamente destacan los indicadores de facilidades de apertura de negocios y pago de impuestos como aquellos que tienen una correlación significativa y positiva con la participación en el ingreso del 20% peor remunerado. Esto implica que aquellos países que presentan mejor rendimiento en ambos indicadores presentan también una participación más alta del 20% peor remunerado en los ingresos del país.
 
+![Correlaciones INGRESOS](plot/plot.ingreso.jpg)
+
 Controlando por año y grupo de ingreso, el efecto del indicador de facilidad para hacer negocios sobre la participación en el ingreso del 20% peor remunerado de la economía de un país, resulta significativo. El efecto, además, es positivo, esto es, que el aumento en un punto de la puntuación obtenida en dicho indicador provoca un aumento en la participación del 20% peor remunerado en los ingresos del país, en línea con la disminución de la desigualdad de ingresos antes indicada. 
 
 Al observar los efectos los indicadores puntuales de facilidades para la apertura de negocios y de pago de impuestos, se observa que solo el primero tiene un efecto significativo, al momento de controlar por año y grupo de ingreso del país. En esa línea, el aumento de un punto en la puntuación en el indicador de apertura de negocios mejora la participación del 20% peor remunerado en el ingreso del país.
@@ -88,6 +94,8 @@ Al observar los efectos los indicadores puntuales de facilidades para la apertur
 <b>Tasa de incidencia de la pobreza sobre la base de US$1,90 por día (2011 PPA)</b>
 
 Finalmente, la Tasa de incidencia de la pobreza (% de la población), comprendida sobre la base de US$1,90 por día (2011 PPA), evidencia correlaciones negativas que resultan significativas con alguno de los indicadores Doing Business, dando cuenta de que los países con buenos rendimientos en esas dimensiones presentan una menor proporción de su población viviendo con menos de US$1,90 por día. Estos corresponden al indicador global de facilidad para hacer negocios, el indicador de comercio transfronterizo, y las facilidades en cuanto a la obtención de electricidad y el manejo de permisos de construcción.
+
+![Correlaciones INCIDENCIA](plot/plot.pobreza.jpg)
 
 Controlando por año y grupo de ingreso, se observa que el indicador de facilidad para hacer negocios tiene un efecto significativo y negativo, dando cuenta que el aumento de un punto en el indicador impacta disminuyendo la tasa de pobreza.
 Asimismo, en el segundo modelo, solo el indicador de apertura de negocios tiene un efecto significativo a un nivel de significancia inferior al 0.05, en la misma dirección que el indicador global de facilidad para hacer negocios: manteniendo los demás factores constantes, una mejor performance en materia de facilidades para la apertura de negocios genera una reducción de la tasa de pobreza en una economía.
