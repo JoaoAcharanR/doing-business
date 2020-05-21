@@ -5,9 +5,9 @@ source("code/code_01_setup_01_libraries.R")
 bbdd_2016_2020<- readRDS("data/base_final_2016_2020.rds")
 
 ####REGRESIONES OLS CON ERRORES ROBUSTOS#####
-###PIB###
+####PIB####
 modelo_pib <- lm(log_NY.GDP.PCAP.PP.KD ~ `Ease of doing business score (DB17-20 methodology)` +
-                   Year + Region + `Income group`, data = bbdd_2016_2020)
+                   Year + `Income group`, data = bbdd_2016_2020)
 
 summary(modelo_pib)
 modelo_pib_robust <- coeftest(modelo_pib, vcov. = vcovHC(modelo_pib,type="HC1"))
@@ -31,7 +31,7 @@ modelo_pib_indicadores_sinregion_robust <- coeftest(modelo_pib_indicadores_sinre
 vif(modelo_pib_indicadores_sinregion)
 resettest(modelo_pib_indicadores_sinregion)
 
-###GINI###
+####GINI####
 modelo_gini_db <- lm(SI.POV.GINI ~ `Ease of doing business score (DB17-20 methodology)`+
                        Year + `Income group`, data = bbdd_2016_2020)
 
