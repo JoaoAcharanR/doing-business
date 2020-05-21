@@ -71,6 +71,67 @@ Para observar si esta tendencia se repite en el tiempo, se observa que controlan
 
 Por otro lado, controlando solo por año y grupo de ingreso, constatamos que todos los indicadores incorporados al modelo resultan significativos para explicar varianza en el PIB, aunque a diferentes niveles de significancia, con la sola excepción del indicador de facilidades para el pago de impuestos. Resulta llamativo, eso sí, que para los indicadores de facilidades para la apertura de un negocio, facilidades para la obtención del crédito, y el indicador de comercio transfronterizo presentan estimadores con signo negativo, lo que implica que, manteniendo todos los demás factores constantes, el aumento en un punto en la puntuación en dichos indicadores tiene un efecto negativo sobre el PIB per cápita. Este resultado resulta contraintuitivo, e incluso difiere de la correlación positiva y significativa, antes observada al observar la relación bivariada entre dichas variables y el PIB para el año 2016. 
 
+<table style="text-align:center"><caption><strong>Tabla 1. Modelos PIB pér capita (PPA 2011) ~ Indicadores Doing Business</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">log_NY.GDP.PCAP.PP.KD</td></tr>
+<tr><td style="text-align:left"></td><td>Model1</td><td>Model2</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">`Ease of doing business score (DB17-20 methodology)`</td><td>0.01<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.002)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Starting a business`</td><td></td><td>-0.01<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.002)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Dealing with construction permits (DB16-20 methodology)`</td><td></td><td>0.01<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Getting electricity (DB16-20 methodology)`</td><td></td><td>0.004<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Protecting minority investors (DB15-20 methodology)`</td><td></td><td>0.01<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Trading across borders (DB16-20 methodology)`</td><td></td><td>-0.004<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Registering property (DB17-20 methodology)`</td><td></td><td>0.004<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Getting credit (DB15-20 methodology)`</td><td></td><td>-0.003<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Paying taxes (DB17-20 methodology)`</td><td></td><td>0.0000</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Enforcing contracts (DB17-20 methodology)`</td><td></td><td>0.01<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.002)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Resolving insolvency`</td><td></td><td>0.004<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2017</td><td>0.02</td><td>0.02</td></tr>
+<tr><td style="text-align:left"></td><td>(0.02)</td><td>(0.02)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2018</td><td>0.01</td><td>0.03<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.02)</td><td>(0.02)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Low income</td><td>-2.85<sup>***</sup></td><td>-2.70<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.08)</td><td>(0.08)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Lower middle income</td><td>-1.75<sup>***</sup></td><td>-1.60<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.06)</td><td>(0.06)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Upper middle income</td><td>-0.92<sup>***</sup></td><td>-0.88<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.05)</td><td>(0.05)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>9.52<sup>***</sup></td><td>9.48<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.14)</td><td>(0.17)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>529</td><td>529</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
 <b>Índice de Gini</b>
 
 En cuanto a la relación entre los indicadores Doing Business y el índice de Gini, se observan resultados disimiles. Por una parte, destaca que solo dos indicadores presentan una correlación significativa (a diferentes niveles de significancia) con el índice de Gini. Lo que permite inferir que gran parte de las dimensiones que caracterizan un ambiente de negocios tienen un impacto neutro sobre la desigualdad económica. Por otro lado, se observa que el indicador de Apertura de negocios presenta una correlación significativa y negativa con el índice de Gini, lo que da cuenta de que países con más facilidades para el desarrollo de nuevos negocios y empresas tienden a tener un menor nivel de desigualdad que aquellos que tienen una peor performance en ese indicador. Asimismo, si bien con una correlación más débil, se observa una relación de iguales características entre la desigualdad económica y el indicador de facilidad para el pago de impuestos.
@@ -80,6 +141,40 @@ En cuanto a la relación entre los indicadores Doing Business y el índice de Gi
 Controlando por año y grupo de ingreso, el indicador de facilidad para hacer negocios resulta significativo y con un efecto negativo sobre el índice de gini, tal como se esperaba. De esta manera, el aumento en una unidad de la puntuación en el indicador de facilidad para hacer negocios contribuye en una disminución de la desigualdad de ingresos.
 
 Asimismo, los indicadores de facilidades para la apertura de negocios y para el pago de impuestos también resultan significativos controlando por año y grupo de ingreso, teniendo el efecto esperado sobre el índice de gini: el aumento de un punto en la puntuación de dichos indicadores tiene un impacto en la disminución de la desigualdad de ingresos. 
+
+<table style="text-align:center"><caption><strong>Tabla 2. Modelos Índice de Gini ~ Indicadores Doing Business</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">SI.POV.GINI</td></tr>
+<tr><td style="text-align:left"></td><td>Model1</td><td>Model2</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">`Ease of doing business score (DB17-20 methodology)`</td><td>-0.28<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.08)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Starting a business`</td><td></td><td>-0.32<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.10)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Paying taxes (DB17-20 methodology)`</td><td></td><td>-0.12<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.06)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2017</td><td>-1.00</td><td>-1.00</td></tr>
+<tr><td style="text-align:left"></td><td>(1.13)</td><td>(0.94)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Low income</td><td>-8.90<sup>**</sup></td><td>-8.07<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(3.55)</td><td>(3.26)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Lower middle income</td><td>-12.30<sup>***</sup></td><td>-12.58<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(2.72)</td><td>(2.28)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Upper middle income</td><td>-4.62<sup>*</sup></td><td>-6.10<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(2.53)</td><td>(2.25)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>64.90<sup>***</sup></td><td>82.05<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(6.49)</td><td>(7.34)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
 
 <b>Participación en el ingreso del 20% peor remunerado</b>
 
@@ -91,6 +186,40 @@ Controlando por año y grupo de ingreso, el efecto del indicador de facilidad pa
 
 Al observar los efectos los indicadores puntuales de facilidades para la apertura de negocios y de pago de impuestos, se observa que solo el primero tiene un efecto significativo, al momento de controlar por año y grupo de ingreso del país. En esa línea, el aumento de un punto en la puntuación en el indicador de apertura de negocios mejora la participación del 20% peor remunerado en el ingreso del país.
 
+<table style="text-align:center"><caption><strong>Tabla 3. Modelos Participación en ingreso del 20% peor remunerado ~ Indicadores Doing Business</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">SI.DST.FRST.20</td></tr>
+<tr><td style="text-align:left"></td><td>Model1</td><td>Model2</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">`Ease of doing business score (DB17-20 methodology)`</td><td>0.07<sup>***</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.02)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Starting a business`</td><td></td><td>0.09<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.03)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Paying taxes (DB17-20 methodology)`</td><td></td><td>0.03</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.02)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2017</td><td>0.28</td><td>0.27</td></tr>
+<tr><td style="text-align:left"></td><td>(0.31)</td><td>(0.27)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Low income</td><td>3.21<sup>***</sup></td><td>3.10<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.97)</td><td>(0.92)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Lower middle income</td><td>3.29<sup>***</sup></td><td>3.40<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.74)</td><td>(0.64)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Upper middle income</td><td>1.77<sup>**</sup></td><td>2.19<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.69)</td><td>(0.63)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-0.60</td><td>-5.34<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(1.75)</td><td>(2.03)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
 <b>Tasa de incidencia de la pobreza sobre la base de US$1,90 por día (2011 PPA)</b>
 
 Finalmente, la Tasa de incidencia de la pobreza (% de la población), comprendida sobre la base de US$1,90 por día (2011 PPA), evidencia correlaciones negativas que resultan significativas con alguno de los indicadores Doing Business, dando cuenta de que los países con buenos rendimientos en esas dimensiones presentan una menor proporción de su población viviendo con menos de US$1,90 por día. Estos corresponden al indicador global de facilidad para hacer negocios, el indicador de comercio transfronterizo, y las facilidades en cuanto a la obtención de electricidad y el manejo de permisos de construcción.
@@ -99,3 +228,40 @@ Finalmente, la Tasa de incidencia de la pobreza (% de la población), comprendid
 
 Controlando por año y grupo de ingreso, se observa que el indicador de facilidad para hacer negocios tiene un efecto significativo y negativo, dando cuenta que el aumento de un punto en el indicador impacta disminuyendo la tasa de pobreza.
 Asimismo, en el segundo modelo, solo el indicador de apertura de negocios tiene un efecto significativo a un nivel de significancia inferior al 0.05, en la misma dirección que el indicador global de facilidad para hacer negocios: manteniendo los demás factores constantes, una mejor performance en materia de facilidades para la apertura de negocios genera una reducción de la tasa de pobreza en una economía.
+
+<table style="text-align:center"><caption><strong>Tabla 4. Modelos Tasa incidencia pobreza ~ Indicadores Doing Business</strong></caption>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="2"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="2" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="2">log_SI.POV.DDAY</td></tr>
+<tr><td style="text-align:left"></td><td>Model1</td><td>Model2</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">`Ease of doing business score (DB17-20 methodology)`</td><td>-0.07<sup>**</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Starting a business`</td><td></td><td>-0.09<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.04)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Enforcing contracts (DB17-20 methodology)`</td><td></td><td>-0.06<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.03)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Score-Registering property (DB17-20 methodology)`</td><td></td><td>0.01</td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.03)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2017</td><td>-0.49</td><td>-0.48</td></tr>
+<tr><td style="text-align:left"></td><td>(0.41)</td><td>(0.38)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Low income</td><td>2.76<sup>**</sup></td><td>2.21<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(1.27)</td><td>(1.22)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Lower middle income</td><td>0.30</td><td>-0.26</td></tr>
+<tr><td style="text-align:left"></td><td>(0.97)</td><td>(0.99)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">`Income group`Upper middle income</td><td>-1.33</td><td>-1.78<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.90)</td><td>(0.94)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>5.26<sup>**</sup></td><td>10.87<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(2.28)</td><td>(3.12)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
+<tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
