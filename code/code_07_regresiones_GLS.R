@@ -43,3 +43,4 @@ resettest(modelo_incidencia_pobreza_sinregion_orcutt)
 modelo_incidencia_pobreza_indicadores_sinregion_orcutt <- cochrane.orcutt(modelo_incidencia_pobreza_indicadores_sinregion)
 summary(modelo_incidencia_pobreza_indicadores_sinregion_orcutt)
 resettest(modelo_incidencia_pobreza_indicadores_sinregion_orcutt)
+
