@@ -28,7 +28,7 @@ datos_2 <- datos_1 %>%
 
 View(datos_2)
 
-#####UNIR BBDD####
+#####UNIR BBDD CON BASE DOING BUSINESS####
 data_db<- read_excel("raw/doing_bussines.xlsx", sheet="All data")  
 
 data_db <- rename(data_db, code = "Country code",
