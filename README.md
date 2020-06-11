@@ -95,7 +95,7 @@ Por otro lado, controlando solo por año y grupo de ingreso, constatamos que tod
 <tr><td style="text-align:left">`Score-Trading across borders (DB16-20 methodology)`</td><td></td><td>-0.004<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">`Score-Registering property (DB17-20 methodology)`</td><td></td><td>0.004<sup>***</sup></td></tr>
+<tr><td style="text-align:left">`Score-Registering property (DB17-20 methodology)`</td><td></td><td>0.003<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td style="text-align:left">`Score-Getting credit (DB15-20 methodology)`</td><td></td><td>-0.003<sup>***</sup></td></tr>
@@ -110,11 +110,8 @@ Por otro lado, controlando solo por año y grupo de ingreso, constatamos que tod
 <tr><td style="text-align:left">`Score-Resolving insolvency`</td><td></td><td>0.004<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.001)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Year2017</td><td>0.02</td><td>0.02</td></tr>
-<tr><td style="text-align:left"></td><td>(0.02)</td><td>(0.02)</td></tr>
-<tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Year2018</td><td>0.01</td><td>0.03<sup>*</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.02)</td><td>(0.02)</td></tr>
+<tr><td style="text-align:left">Year</td><td>0.01</td><td>0.02<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.01)</td><td>(0.01)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td style="text-align:left">`Income group`Low income</td><td>-2.85<sup>***</sup></td><td>-2.70<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td>(0.08)</td><td>(0.08)</td></tr>
@@ -125,8 +122,8 @@ Por otro lado, controlando solo por año y grupo de ingreso, constatamos que tod
 <tr><td style="text-align:left">`Income group`Upper middle income</td><td>-0.92<sup>***</sup></td><td>-0.88<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td>(0.05)</td><td>(0.05)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Constant</td><td>9.52<sup>***</sup></td><td>9.48<sup>***</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.14)</td><td>(0.17)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>-1.12</td><td>-25.57</td></tr>
+<tr><td style="text-align:left"></td><td>(23.18)</td><td>(20.86)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>529</td><td>529</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
@@ -157,7 +154,7 @@ Asimismo, los indicadores de facilidades para la apertura de negocios y para el 
 <tr><td style="text-align:left">`Score-Paying taxes (DB17-20 methodology)`</td><td></td><td>-0.12<sup>**</sup></td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.06)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Year2017</td><td>-1.00</td><td>-1.00</td></tr>
+<tr><td style="text-align:left">Year</td><td>-1.00</td><td>-1.00</td></tr>
 <tr><td style="text-align:left"></td><td>(1.13)</td><td>(0.94)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td style="text-align:left">`Income group`Low income</td><td>-8.90<sup>**</sup></td><td>-8.07<sup>**</sup></td></tr>
@@ -169,8 +166,8 @@ Asimismo, los indicadores de facilidades para la apertura de negocios y para el 
 <tr><td style="text-align:left">`Income group`Upper middle income</td><td>-4.62<sup>*</sup></td><td>-6.10<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td>(2.53)</td><td>(2.25)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Constant</td><td>64.90<sup>***</sup></td><td>82.05<sup>***</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(6.49)</td><td>(7.34)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>2,089.77</td><td>2,093.19</td></tr>
+<tr><td style="text-align:left"></td><td>(2,275.12)</td><td>(1,899.52)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
@@ -201,7 +198,7 @@ Al observar los efectos los indicadores puntuales de facilidades para la apertur
 <tr><td style="text-align:left">`Score-Paying taxes (DB17-20 methodology)`</td><td></td><td>0.03</td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.02)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Year2017</td><td>0.28</td><td>0.27</td></tr>
+<tr><td style="text-align:left">Year</td><td>0.28</td><td>0.27</td></tr>
 <tr><td style="text-align:left"></td><td>(0.31)</td><td>(0.27)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td style="text-align:left">`Income group`Low income</td><td>3.21<sup>***</sup></td><td>3.10<sup>***</sup></td></tr>
@@ -213,8 +210,8 @@ Al observar los efectos los indicadores puntuales de facilidades para la apertur
 <tr><td style="text-align:left">`Income group`Upper middle income</td><td>1.77<sup>**</sup></td><td>2.19<sup>***</sup></td></tr>
 <tr><td style="text-align:left"></td><td>(0.69)</td><td>(0.63)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Constant</td><td>-0.60</td><td>-5.34<sup>**</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(1.75)</td><td>(2.03)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>-556.82</td><td>-541.48</td></tr>
+<tr><td style="text-align:left"></td><td>(621.43)</td><td>(544.84)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
@@ -247,7 +244,7 @@ Asimismo, en el segundo modelo, solo el indicador de apertura de negocios tiene 
 <tr><td style="text-align:left">`Score-Registering property (DB17-20 methodology)`</td><td></td><td>0.01</td></tr>
 <tr><td style="text-align:left"></td><td></td><td>(0.03)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Year2017</td><td>-0.49</td><td>-0.48</td></tr>
+<tr><td style="text-align:left">Year</td><td>-0.49</td><td>-0.48</td></tr>
 <tr><td style="text-align:left"></td><td>(0.41)</td><td>(0.38)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td style="text-align:left">`Income group`Low income</td><td>2.76<sup>**</sup></td><td>2.21<sup>*</sup></td></tr>
@@ -259,8 +256,8 @@ Asimismo, en el segundo modelo, solo el indicador de apertura de negocios tiene 
 <tr><td style="text-align:left">`Income group`Upper middle income</td><td>-1.33</td><td>-1.78<sup>*</sup></td></tr>
 <tr><td style="text-align:left"></td><td>(0.90)</td><td>(0.94)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
-<tr><td style="text-align:left">Constant</td><td>5.26<sup>**</sup></td><td>10.87<sup>***</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(2.28)</td><td>(3.12)</td></tr>
+<tr><td style="text-align:left">Constant</td><td>987.69</td><td>977.47</td></tr>
+<tr><td style="text-align:left"></td><td>(822.16)</td><td>(772.13)</td></tr>
 <tr><td style="text-align:left"></td><td></td><td></td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
