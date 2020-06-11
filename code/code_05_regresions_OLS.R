@@ -4,6 +4,9 @@ source("code/code_01_setup_01_libraries.R")
 ####CARGAR BASE####
 bbdd_2016_2020<- readRDS("data/base_final_2016_2020.rds")
 
+####CONVERTIR YEAR A NUMERIC####
+bbdd_2016_2020$Year <- as.numeric(bbdd_2016_2020$Year)
+
 ####REGRESIONES OLS CON ERRORES ROBUSTOS#####
 ####PIB####
 modelo_pib <- lm(log_NY.GDP.PCAP.PP.KD ~ `Ease of doing business score (DB17-20 methodology)` +
