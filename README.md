@@ -262,3 +262,7 @@ Asimismo, en el segundo modelo, solo el indicador de apertura de negocios tiene 
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>61</td><td>61</td></tr>
 <tr><td colspan="3" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="2" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
 </table>
+
+<b>Conclusiones</b>
+
+Todas estas correlaciones, incluso controlando por algunas variables como el año y el grupo económico del país, dan cuenta de que aquellos países que tienen un ambiente de negocios que se caracteriza por las facilidades para hacer negocios son simultáneamente quienes presentan una mejor performance en materia de crecimiento económico y en distintos indicadores que dan cuenta de desigualdad de ingresos y prevalencia de pobreza, como el índice de Gini, la participación en el ingreso del 20% peor remunerado y la tasa de incidencia de la pobreza sobre la base de US$1,90 por día (2011 PPA).
